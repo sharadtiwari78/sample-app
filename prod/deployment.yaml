@@ -14,10 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-<<<<<<< Updated upstream
-        image: us-east1-docker.pkg.dev/qwiklabs-gcp-01-45608046e7e8/my-repository/hello-cloudbuild:v1.0
-=======
         image: us-east1-docker.pkg.dev/qwiklabs-gcp-01-45608046e7e8/my-repository/hello-cloudbuild-dev:v2.0
->>>>>>> Stashed changes
         ports:
         - containerPort: 8080
